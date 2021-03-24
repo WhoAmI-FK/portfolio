@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhoAmI's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/superslides.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="shortcut icon" href="./img/icon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="inner">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#fff;display:block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                <style type="text/css">
+                  .ldio-zi6o3okczci-st0{opacity:0.8;fill:none;stroke-width:0.4811;stroke-miterlimit:10;}
+                  .ldio-zi6o3okczci-st2{opacity:0.8;}
+                  .ldio-zi6o3okczci-st3{fill:none;stroke-width:0.5;stroke-miterlimit:10;}
+                  .ldio-zi6o3okczci-st4{fill:none;stroke-width:0.4694;stroke-miterlimit:10;}
+                </style>
+                <g style="opacity:0.5">
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="41.5 62 30 62 24.2 72 30 82 41.5 82 47.3 72"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="58.8 72 47.3 72 41.5 82 47.3 92 58.8 92 64.6 82"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="76.2 62 64.6 62 58.8 72 64.6 82 76.2 82 81.9 72"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="41.5 42 30 42 24.2 52 30 62 41.5 62 47.3 52"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="58.8 12 47.3 12 41.5 22 47.3 32 58.8 32 64.6 22"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="58.8 32 47.3 32 41.5 42 47.3 52 58.8 52 64.6 42"></polygon>
+                  <polygon stroke="#5f2a62" class="ldio-zi6o3okczci-st0" points="76.2 22 64.6 22 58.8 32 64.6 42 76.2 42 81.9 32"></polygon>
+                </g>
+                <g>
+                  <path fill="#a976c3" d="M48.3 56.8l-4.4 1.5c-0.9-1.3-1.5-2.7-1.7-4.3l-1.9 0.3c0.5 2.6 1.7 5 3.6 6.9c1.9 1.9 4.3 3.1 6.9 3.6 l0.3-1.9c-1.6-0.3-3-0.9-4.3-1.7L48.3 56.8z"></path>
+                  <path fill="#a976c3" d="M57.8 47.2l4.4-1.5c0.9 1.3 1.5 2.7 1.7 4.3l1.9-0.3c-0.5-2.6-1.7-5-3.6-6.9c-1.9-1.9-4.3-3.1-6.9-3.6L55 41.1 c1.6 0.3 3 0.9 4.3 1.7L57.8 47.2z"></path>
+                  <path fill="#a976c3" d="M62.2 58.2l-4.4-1.5l1.5 4.4C58 62 56.5 62.6 55 62.9l0.3 1.9c2.6-0.5 5-1.7 6.9-3.6c1.9-1.9 3.1-4.3 3.6-6.9 L64 53.9C63.7 55.5 63.1 56.9 62.2 58.2z"></path>
+                  <path fill="#a976c3" d="M43.9 42.8c-1.9 1.9-3.1 4.3-3.6 6.9l1.9 0.3c0.3-1.6 0.9-3 1.7-4.3l4.4 1.5l-1.5-4.4c1.3-0.9 2.7-1.5 4.3-1.7 l-0.3-1.9C48.2 39.7 45.8 40.9 43.9 42.8z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="4s" keyTimes="0;1" values="0 53.064 52;360 53.064 52"></animateTransform>
+                </g>
+                <g class="ldio-zi6o3okczci-st2">
+                  <path fill="#a976c3" d="M36 61.9c-1.7-3-2.7-6.4-2.7-9.9c0-10.9 8.8-19.7 19.7-19.7v1c-10.3 0-18.8 8.4-18.8 18.8 c0 3.3 0.9 6.5 2.5 9.4L36 61.9z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="2s" keyTimes="0;1" values="360 53.064 52;0 53.064 52"></animateTransform>
+                </g>
+                <g class="ldio-zi6o3okczci-st2">
+                  <path fill="#a976c3" d="M57 75.3l-0.5-3c9.9-1.7 17.2-10.2 17.2-20.3c0-11.4-9.2-20.6-20.6-20.6S32.5 40.6 32.5 52 c0 1.6 0.2 3.2 0.5 4.7l-3 0.7c-0.4-1.8-0.6-3.6-0.6-5.4c0-13.1 10.6-23.7 23.7-23.7S76.7 38.9 76.7 52 C76.7 63.6 68.4 73.4 57 75.3z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1.332s" keyTimes="0;1" values="0 53.064 52;360 53.064 52"></animateTransform>
+                </g>
+                <g>
+                  <path fill="#a976c3" d="M90.5 45.4c-1.5-8.8-6.2-16.8-13-22.5l0 0c-3.4-2.9-7.3-5.1-11.4-6.6s-8.5-2.3-13-2.3v2.4v1.4v2.4 c3.7 0 7.4 0.6 10.9 1.9l0.8-2.3c0 0 0 0 0 0c3.7 1.4 7.2 3.4 10.3 5.9l1.2-1.5L75 25.8c0 0 0 0 0 0l-1.5 1.8 c5.7 4.8 9.6 11.5 10.9 18.8l3.8-0.7c0 0 0 0 0 0L90.5 45.4z"></path>
+                  <path fill="#a976c3" d="M29.7 22l4.7 6.1c3.5-2.8 7.5-4.6 11.9-5.6l-1.7-7.5C39.2 16.2 34.2 18.5 29.7 22z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="2s" keyTimes="0;1" values="360 53.064 52;0 53.064 52"></animateTransform>
+                </g>
+                <g class="ldio-zi6o3okczci-st2">
+                  <path fill="#a976c3" d="M53.1 92.4v-1c21.8 0 39.5-17.7 39.5-39.5c0-21.8-17.7-39.5-39.5-39.5c-15.8 0-30 9.4-36.2 23.8L15.9 36 c6.4-14.8 21-24.4 37.1-24.4c22.3 0 40.4 18.1 40.4 40.4C93.5 74.3 75.3 92.4 53.1 92.4z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1.332s" keyTimes="0;1" values="0 53.064 52;360 53.064 52"></animateTransform>
+                </g>
+                <polygon fill="#1f221c" points="57.4 51.5 53.5 51.5 53.5 47.7 52.6 47.7 52.6 51.5 48.7 51.5 48.7 52.5 52.6 52.5 52.6 56.3 53.5 56.3 53.5 52.5 57.4 52.5 ">
+                  <animate attributeName="opacity" repeatCount="indefinite" dur="1.332s" keyTimes="0;0.4;0.5;0.9;1" values="0;0;1;1;0"></animate>
+                </polygon>
+                <g>
+                  <path fill="#a976c3" d="M39.7 28.5l0.6 1c3.9-2.2 8.3-3.4 12.8-3.4V25C48.4 25 43.7 26.2 39.7 28.5z"></path>
+                  <path fill="#a976c3" d="M28.6 60.6l-1.1 0.4C31.3 71.8 41.6 79 53.1 79v-1.2C42.1 77.9 32.3 70.9 28.6 60.6z"></path>
+                  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="4s" keyTimes="0;1" values="360 53.064 52;0 53.064 52"></animateTransform>
+                </g>
+                <g>
+                  <polyline stroke="#000000" class="ldio-zi6o3okczci-st3" points="35.5 77.5 27.5 89.5 24 89.5"></polyline>
+                  <rect stroke="#000000" x="7" y="86" class="ldio-zi6o3okczci-st4" width="17" height="7"></rect>
+                </g>
+                <g>
+                  <polyline stroke="#000000" class="ldio-zi6o3okczci-st4" points="59 22 69 12 82 12"></polyline>
+                  <circle stroke="#000000" class="ldio-zi6o3okczci-st4" cx="87" cy="12" r="5"></circle>
+                </g>
+                </svg>
+        </div>
+    </div>
+
+    <div id="slides">
+        <div class="overlay"></div>
+        <div class="slides-container">
+            <img src="./img/slide1.jpg" alt="">
+            <img src="./img/slide2.jpg" alt="">
+            <img src="./img/slide3.jpg" alt="">
+        </div>
+        <div class="title-message">
+            <div class="heading">
+                <p class="main">Kassem Faisal</p>
+                <span class="sub typed"></span>
+            </div>
+        </div>
+        <nav class="slides-navigation">
+            <a href="#" class="next"><i class="fas fa-arrow-circle-right myarrow"></i></a>
+            <a href="#" class="prev"><i class="fas fa-arrow-circle-left myarrow"></i></a>
+        </nav>
+    </div>
+    <nav id="navigation" class="navbar sticky-top  navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WhoAmI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stats" tabindex="-1" aria-disabled="true">Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mt-5">
+                    <img id="me" src="./img/me.jpg" class="about-image" alt="">
+                </div>
+                <div class="col-md-7 text-center" style="margin-top:3rem;">
+                    <h2>
+                        Hello, my name is Kassem Faisal
+                    </h2>
+                    <p>
+                        I am a novice developer studying at IT-Step academy, where I have gained a bunch of my skills that I mentioned below. I have always been inspired of the idea being a developer. I always say to my friends this famous quote "Any sufficiently advanced technology
+                        is indistinguishable from magic".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>
+                        Technical Skills
+                    </h2>
+                    <p>
+                        My proficiency in each skill (drag to scroll)
+                    </p>
+                </div>
+                <div class="owl-carousel">
+                    <div class="skill">
+                        <span class="chart" data-percent="99.9">
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            HTML&&CSS
+                        </h3>
+                        <p>
+                            Used mainly in my current projects
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="99.9">
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            English
+                        </h3>
+                        <p>
+                            Main language preference
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="79.9">
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            C
+                        </h3>
+                        <p>
+                            Used mainly in my projects
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="79.9">
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            C++
+                        </h3>
+                        <p>
+                            Used mainly in my projects
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="5">
+                        
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            JavaScript
+                        </h3>
+                        <p>
+                            Keep on studying
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="59.9">
+                        
+                        <span class="percent"></span>
+
+                        </span>
+                        <h3>
+                            MySQL
+                        </h3>
+                        <p>
+                            Had an experience working with it
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="stats">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="text-center" id="count">Still Counting</h2>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="square">
+                        <div class="square-container">
+                            <i class="far fa-calendar-alt"></i>
+                            <div class="square-content">
+                                <h2 class="counter" data-count="1">
+                                    0
+                                </h2>
+                                <p>
+                                    Years of experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="square">
+                        <div class="square-container">
+                            <i class="far fa-calendar-alt"></i>
+                            <div class="square-content">
+                                <h2 class="counter" data-count="4">
+                                    0
+                                </h2>
+                                <p>
+                                    Projects
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="square">
+                        <div class="square-container">
+                            <i class="far fa-calendar-alt"></i>
+                            <div class="square-content">
+                                <h2 class="counter" data-count="0">
+                                    0
+                                </h2>
+                                <p>
+                                    Created Apps
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="square">
+                        <div class="square-container">
+                            <i class="far fa-calendar-alt"></i>
+                            <div class="square-content">
+                                <h2 class="counter" data-count="0">
+                                    0
+                                </h2>
+                                <p>
+                                    Clients
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <h4 class="p-2">Liked what you see? ;)</h4>
+                <h2 class="p-2">I would love to hear from you!</h2>
+                <a href="mailTo:@gmail.com"><button class="btn shadow-lg">GET IN TOUCH</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>
+                        Portfolio
+                    </h2>
+                </div>
+                <div class="filter">
+                    <ul id="filters">
+                        <li>
+                            <a href="" data-filter="*">All</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".c">C</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".mysql">MySQL</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".css">HTML/CSS</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".cplusplus">C++</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".eng">English</a>
+                        </li>
+                        <li>
+                            <a href="" data-filter=".certificates">Certificates</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items-container">
+                    <ul class="items">
+                        <li class="mysql">
+                            <div class="item">
+                                <img src="https://images.unsplash.com/photo-1568027762272-e4da8b386fe9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+
+
+                        <li class="certificates">
+                            <div class="item">
+                                <img src="./img/fizika.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="certificates">
+                            <div class="item">
+                                <img src="./img/udacity.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="certificates">
+                            <div class="item">
+                                <img src="./img/database.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li class="eng certificates">
+                            <div class="item">
+                                <img src="./img/ielts012.jpg" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="css">
+                            <div class="item">
+                                <img src="./img/scssboots.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="c">
+                            <div class="item">
+                                <img src="./img/pricelist.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cplusplus">
+                            <div class="item">
+                                <img src="./img/pacman.png" alt="">
+                                <div class="port-overlay">
+
+                                </div>
+                                <div class="icons">
+                                    <a href="#" class="btn-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="btn-open"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex justify-content-center align-items-center">
+            <p>
+                © Copyright WhoAmI
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./js/jquery.superslides.min.js"></script>
+    <script src="./js/typed.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/jquery.easypiechart.min.js"></script>
+    <script src="./js/countUp.min.js"></script>
+    <script src="./js/countUp-jquery.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
